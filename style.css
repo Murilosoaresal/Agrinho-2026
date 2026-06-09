@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4fff4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.sobre, .beneficios {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sobre h2,
+.beneficios h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #388e3c;
+    margin-bottom: 15px;
+}
+
+.beneficios ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.beneficios li {
+    background: #e8f5e9;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
